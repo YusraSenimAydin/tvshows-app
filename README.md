@@ -58,11 +58,13 @@ Geliştirme sunucusunu başlatın:
 **ShowDetails.vue:** Seçilen TV şovunun detaylarını gösterir.
 **HighRated.vue:** IMDB'den yüksek puan almış TV şovlarını listeler.
 **src/store:** Vuex store dosyası. Uygulama genelinde kullanılan state yönetimi burada yapılır.
+
 ## API Kullanımı
 **getShowsByGenre:** Kategoriye göre TV şovlarını getirir.
 **getShowDetails:** Belirli bir şovun detaylarını getirir.
 **searchShowsAPI**: Kullanıcı tarafından girilen arama kriterlerine göre şovları arar.
 **getHighRatedShows:** IMDB'den 7+ puan almış TV şovlarını getirir.
+
 ## Önemli Notlar
 - Bu proje sadece TVMaze API'si ile çalışmaktadır. API'den çekilen veriler anlık olarak yüklenecektir.
 - Projede Tailwind CSS kullanıldığı için hızlı ve esnek bir şekilde stil yönetimi yapılmıştır.
